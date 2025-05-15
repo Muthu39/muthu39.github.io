@@ -82,6 +82,15 @@ p.danger {
 	color: red;
 }
 /************ Navbar Css ************/
+.logo-size{
+  width: 200px;
+  margin-left: -85px;
+}
+@media (max-width: 767.98px) { /* Mobile devices (Bootstrap's sm breakpoint) */
+  .logo-shift-mobile {
+    margin-left: -35px;
+  }
+}
 nav.navbar {
   padding: 18px 0;
   position: fixed;
@@ -607,7 +616,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border-radius: 18px;
 }
 .footer img {
-  width: 26%;
+  width: 60%;
 }
 .footer p {
   font-weight: 400;
@@ -616,3 +625,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   letter-spacing: 0.5px;
   margin-top: 20px;
 }
+  @media (max-width: 767.98px) { /* Mobile devices (Bootstrap's sm breakpoint) */
+    .footer-logo {
+      margin-left: 106px;
+    }
+  }
