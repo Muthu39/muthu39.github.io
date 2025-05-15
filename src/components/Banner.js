@@ -11,7 +11,7 @@ export const Banner = () => {
   const [text, setText] = useState('');
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const [index, setIndex] = useState(1);
-  const toRotate = [ "Web Developer", "Web Designer", "UI/UX Designer" ];
+  const toRotate = [ "Ethical Hacker", "Bug-Bounty Hunter", "Web Pentester" , "Web Developer"];
   const period = 2000;
 
   useEffect(() => {
@@ -55,10 +55,10 @@ export const Banner = () => {
             <TrackVisibility>
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
-                <span className="tagline">Welcome to my Portfolio</span>
-                <h1>{`Hi! I'm Judy`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "Web Designer", "UI/UX Designer" ]'><span className="wrap">{text}</span></span></h1>
-                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                  <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
+                <span className="tagline">My Portfolio – Like a Resume, But With Vibes</span>
+                <h1>{`Hi! I'm Muthukkumaran`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Ethical Hacker", "Bug-Bounty Hunter", "Web Pentester" , "Web Developer" ]'><span className="wrap">{text}</span></span></h1>
+                  <p>Hi, I'm an aspiring ethical hacker who breaks into websites (legally, of course), builds them back better, and occasionally finds bugs that help pay the rent! As a 4th year Computer Science student, I keep one eye on the OWASP Top 10 and the other on my next juicy bounty. By day, I’m a full stack developer writing clean (mostly) code, and by night, I transform into a bug bounty hunter poking around the web’s soft spots. From generation testing and patching vulnerabilities to building cool digital stuff from scratch, I navigate it all with a mix of caffeine, chaos, and curiosity!</p>
+                  <button onClick={() => console.log('connect')}>Reach Me <ArrowRightCircle size={25} /></button>
               </div>}
             </TrackVisibility>
           </Col>
