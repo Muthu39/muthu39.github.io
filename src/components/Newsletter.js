@@ -1,46 +1,25 @@
-import { useState, useEffect } from "react";
-import { Col, Row, Alert } from "react-bootstrap";
+import { Col, Row } from "react-bootstrap";
 
-export const Newsletter = ({ status, message, onValidated }) => {
-  const [email, setEmail] = useState('');
-
-  useEffect(() => {
-    if (status === 'success') clearFields();
-  }, [status])
-
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    email &&
-    email.indexOf("@") > -1 &&
-    onValidated({
-      EMAIL: email
-    })
-  }
-
-  const clearFields = () => {
-    setEmail('');
-  }
+export const Newsletter = () => {
+  const handleResumeOpen = () => {
+    // Update this path if deployed or hosted differently
+    window.open("https://drive.google.com/file/d/1xCnqJ4GeBjP67yoOAB6J14uNTwEW5KkW/view?usp=sharing", "_blank"); // Opens in new tab
+  };
 
   return (
-      <Col lg={12}>
-        <div className="newsletter-bx wow slideInUp">
-          <Row>
-            <Col lg={12} md={6} xl={5}>
-              <h3>Subscribe to our Newsletter<br></br> & Never miss latest updates</h3>
-              {status === 'sending' && <Alert>Sending...</Alert>}
-              {status === 'error' && <Alert variant="danger">{message}</Alert>}
-              {status === 'success' && <Alert variant="success">{message}</Alert>}
-            </Col>
-            <Col md={6} xl={7}>
-              <form onSubmit={handleSubmit}>
-                <div className="new-email-bx">
-                  <input value={email} type="email" onChange={(e) => setEmail(e.target.value)} placeholder="Email Address" />
-                  <button type="submit">Submit</button>
-                </div>
-              </form>
-            </Col>
-          </Row>
-        </div>
-      </Col>
-  )
-}
+    <Col lg={12}>
+      <div className="newsletter-bx wow slideInUp">
+        <Row>
+          <Col lg={12} md={6} xl={5}>
+            <h3>Punish Yourself <br />By Exploring My Overflowing Talent (Resume)</h3>
+          </Col>
+          <Col md={6} xl={7}>
+            <div className="new-email-bx">
+              <button type="button" onClick={handleResumeOpen}>Smash It!</button>
+            </div>
+          </Col>
+        </Row>
+      </div>
+    </Col>
+  );
+};

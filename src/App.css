@@ -265,16 +265,17 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   line-height: 1;
   margin-bottom: 20px;
   display: block;
+  color: #00c700;
 }
 .banner p {
-  color: #B8B8B8;
+  color: #00ff00;
   font-size: 18px;
   letter-spacing: 0.8px;
   line-height: 1.5em;
   width: 96%;
 }
 .banner button {
-  color: #fff;
+  color: #00c700;
   font-weight: 700;
   font-size: 20px;
   margin-top: 60px;
@@ -477,11 +478,24 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 /************ Projects Css ************/
 .contact {
-  background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
+  background: linear-gradient(90.21deg, #0e0e0e -5.91%, #105100 111.58%);
   padding: 60px 0 200px 0;
 }
 .contact img {
-  width: 92%;
+  width: 128%;
+  margin-left: -160px;
+}
+@media (max-width: 991px) { /* Mobile devices (Bootstrap's sm breakpoint) */
+  .contact img {
+    width: 150%;
+    margin-left: -150px;
+  }
+}
+@media (max-width: 767.98px) { /* Mobile devices (Bootstrap's sm breakpoint) */
+  .contact img {
+    width: 92%;
+    margin-left: 0;
+  }
 }
 .contact h2 {
 	font-size: 45px;
@@ -524,6 +538,23 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border-radius: 0;
   position: relative;
   transition: 0.3s ease-in-out;
+  margin-left: 200px;
+  border-radius: 18px;
+}
+@media (max-width: 767.98px) { /* Mobile devices (Bootstrap's sm breakpoint) */
+  .contact form button {
+    font-weight: 700;
+    color: #000;
+    background-color: #fff;
+    padding: 14px 48px;
+    font-size: 18px;
+    margin-top: 25px;
+    border-radius: 0;
+    position: relative;
+    transition: 0.3s ease-in-out;
+    margin-left: 190px;
+    border-radius: 18px;
+  }
 }
 .contact form button span {
   z-index: 1;
@@ -534,7 +565,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .contact form button::before {
   content: "";
-  background: #121212;
+  background: #386801;
   width: 0;
   height: 100%;
   position: absolute;
@@ -542,6 +573,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   left: 0;
   z-index: 0;
   transition: 0.3s ease-in-out;
+  border-radius: 18px;
 }
 .contact form button:hover::before {
   width: 100%;
@@ -568,6 +600,14 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   letter-spacing: 0.5px;
   line-height: 1.2em;
 }
+@media (max-width: 767.98px) { /* Mobile devices (Bootstrap's sm breakpoint) */
+  .newsletter-bx h3 {
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    line-height: 1.2em;
+    margin-left: 39px;
+  }
+}
 .new-email-bx {
   background: #fff;
   padding: 5px;
@@ -577,43 +617,36 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   display: flex;
   align-items: center;
 }
-.new-email-bx::before {
-  content: "";
-  background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
-  border-radius: 20px;
-  position: absolute;
-  z-index: -1;
-  top: -1px;
-  left: -1px;
-  bottom: -1px;
-  right: -1px;
-}
-.new-email-bx::after {
-  content: "";
-  background: #fff;
-  border-radius: 20px;
-  position: absolute;
-  z-index: -1;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-}
-.new-email-bx input {
-  width: 100%;
-  color: #121212;
-  font-weight: 500;
-  background: transparent;
-  border: 0;
-  padding: 0 15px;
-}
 .new-email-bx button {
-  background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
+  background: linear-gradient(305deg, #020202 -5.91%, #04f300 111.58%);
   padding: 20px 65px;
   color: #fff;
   font-weight: 500;
   letter-spacing: 0.5px;
   border-radius: 18px;
+  margin-left: 200px;
+}
+@media (max-width: 767.98px) { /* Mobile devices (Bootstrap's sm breakpoint) */
+  .new-email-bx button {
+    background: linear-gradient(305deg, #020202 -5.91%, #04f300 111.58%);
+    padding: 20px 65px;
+    color: #fff;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    border-radius: 18px;
+    margin-left: 28px;
+  }
+}
+@media (max-width: 991px) { /* Mobile devices (Bootstrap's sm breakpoint) */
+  .new-email-bx button {
+    background: linear-gradient(305deg, #020202 -5.91%, #04f300 111.58%);
+    padding: 20px 65px;
+    color: #fff;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    border-radius: 18px;
+    margin-left: 34px;
+  }
 }
 .footer img {
   width: 60%;
