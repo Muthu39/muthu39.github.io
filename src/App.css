@@ -143,7 +143,7 @@ span.navbar-text {
     width: 42px;
     height: 42px;
     position: absolute;
-    background-color: #ffffff;
+    background-color: #3ace00;
     border-radius: 50%;
     transform: scale(0);
 	transition: 0.3s ease-in-out;
@@ -265,10 +265,16 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   line-height: 1;
   margin-bottom: 20px;
   display: block;
-  color: #00c700;
+  background: linear-gradient(to top, #01ff01, #ff0000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
 }
 .banner p {
-  color: #00ff00;
+  background: linear-gradient(to left, #00ff00, #ffffff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
   font-size: 18px;
   letter-spacing: 0.8px;
   line-height: 1.5em;
@@ -323,11 +329,12 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   margin-top: -60px;
 }
 .skill h2 {
+  color: #00c700;
 	font-size: 45px;
 	font-weight: 700;
 }
 .skill p {
-    color: #B8B8B8;
+    color: #d8d8d8;
     font-size: 18px;
     letter-spacing: 0.8px;
     line-height: 1.5em;
@@ -357,6 +364,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   background-color: black;
 }
 .project h2 {
+  color: #00ff00;
 	font-size: 45px;
 	font-weight: 700;
   text-align: center;
@@ -399,7 +407,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     position: absolute;
     width: 0;
     height: 100%;
-    background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
+    background: linear-gradient(90.21deg, #31ce02 -5.91%, #1d1d1d 111.58%);
     top: 0;
     left: 0;
     z-index: -1;
@@ -431,7 +439,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .proj-imgbx::before {
   content: "";
-  background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
+  background: linear-gradient(90.21deg, #31ce02 -5.91%, #1d1d1d 111.58%);
   opacity: 0.85;
   position: absolute;
   width: 100%;
@@ -663,3 +671,15 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
       margin-left: 106px;
     }
   }
+.sc{
+  background: linear-gradient(to left, #00ff00, #ffffff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+}
+.c{
+  background: linear-gradient(to top, #00ff00, #000000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+}

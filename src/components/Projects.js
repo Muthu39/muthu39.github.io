@@ -51,7 +51,7 @@ export const Projects = () => {
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn": ""}>
                 <h2>Projects</h2>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                <p>Over the years, I’ve dived headfirst into building things—sometimes they worked on the first try (rare), other times I had to fight bugs like a digital gladiator (often). From crafting cybersecurity tools that politely tell hackers “not today,” to full-stack web apps that look good and don’t crash (most of the time), I’ve learned a lot, cried a little, and coded a ton. Below are some of my proudest creations—powered by daily hardwork.</p>
                 <Tab.Container id="projects-tabs" defaultActiveKey="first">
                   <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                     <Nav.Item>
@@ -79,11 +79,11 @@ export const Projects = () => {
                         }
                       </Row>
                     </Tab.Pane>
-                    <Tab.Pane eventKey="section">
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
+                    <Tab.Pane eventKey="second">
+                      <p>These tabs are just made to fool you into thinking I have projects in N numbers. So far, I’ve only managed to finish these projects — The rest are still hiding from me. I hope I will them reveal soon.......</p>
                     </Tab.Pane>
                     <Tab.Pane eventKey="third">
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
+                      <p>These tabs are just made to fool you into thinking I have projects in N numbers. So far, I’ve only managed to finish these projects — The rest are still hiding from me. I hope I will them reveal soon.......</p>
                     </Tab.Pane>
                   </Tab.Content>
                 </Tab.Container>
