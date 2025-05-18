@@ -499,12 +499,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     margin-left: -150px;
   }
 }
-@media (max-width: 767.98px) { /* Mobile devices (Bootstrap's sm breakpoint) */
-  .contact img {
-    width: 92%;
-    margin-left: 0;
-  }
-}
+
 .contact h2 {
 	font-size: 45px;
 	font-weight: 700;
@@ -549,21 +544,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   margin-left: 200px;
   border-radius: 18px;
 }
-@media (max-width: 767.98px) { /* Mobile devices (Bootstrap's sm breakpoint) */
-  .contact form button {
-    font-weight: 700;
-    color: #000;
-    background-color: #fff;
-    padding: 14px 48px;
-    font-size: 18px;
-    margin-top: 25px;
-    border-radius: 0;
-    position: relative;
-    transition: 0.3s ease-in-out;
-    margin-left: 190px;
-    border-radius: 18px;
-  }
-}
+
 .contact form button span {
   z-index: 1;
   position: relative;
@@ -634,17 +615,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border-radius: 18px;
   margin-left: 200px;
 }
-@media (max-width: 767.98px) { /* Mobile devices (Bootstrap's sm breakpoint) */
-  .new-email-bx button {
-    background: linear-gradient(305deg, #020202 -5.91%, #04f300 111.58%);
-    padding: 20px 65px;
-    color: #fff;
-    font-weight: 500;
-    letter-spacing: 0.5px;
-    border-radius: 18px;
-    margin-left: 28px;
-  }
-}
+
 @media (max-width: 991px) { /* Mobile devices (Bootstrap's sm breakpoint) */
   .new-email-bx button {
     background: linear-gradient(305deg, #020202 -5.91%, #04f300 111.58%);
@@ -666,11 +637,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   letter-spacing: 0.5px;
   margin-top: 20px;
 }
-  @media (max-width: 767.98px) { /* Mobile devices (Bootstrap's sm breakpoint) */
-    .footer-logo {
-      margin-left: 106px;
-    }
-  }
+ 
 .sc{
   background: linear-gradient(to left, #00ff00, #ffffff);
   -webkit-background-clip: text;
@@ -682,4 +649,38 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   color: transparent;
+}
+
+@media (max-width: 767.98px) { /* Mobile devices (Bootstrap's sm breakpoint) */
+  .contact form button {
+    font-weight: 700;
+    color: #000;
+    background-color: #fff;
+    padding: 14px 48px;
+    font-size: 18px;
+    margin-top: 25px;
+    border-radius: 0;
+    position: relative;
+    transition: 0.3s ease-in-out;
+    margin-left: 190px;
+    border-radius: 18px;
+  }
+  .footer-logo {
+    margin-left: 106px;
+  }
+  .new-email-bx button {
+    background: linear-gradient(305deg, #020202 -5.91%, #04f300 111.58%);
+    padding: 20px 65px;
+    color: #fff;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    border-radius: 18px;
+    margin-left: 28px;
+  }
+  .contact img {
+    width: 92%;
+    margin-left: 0;
+  }
+  
+
 }
