@@ -86,11 +86,7 @@ p.danger {
   width: 200px;
   margin-left: -85px;
 }
-@media (max-width: 767.98px) { /* Mobile devices (Bootstrap's sm breakpoint) */
-  .logo-shift-mobile {
-    margin-left: -35px;
-  }
-}
+
 nav.navbar {
   padding: 18px 0;
   position: fixed;
@@ -450,6 +446,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   height: 100%;
 }
 .proj-txtx {
+  color: #ffffff;
   position: absolute;
   text-align: center;
   top: 65%;
@@ -464,6 +461,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   opacity: 1;
 }
 .proj-txtx h4 {
+  color: #ffffff;
   font-size: 30px;
   font-weight: 700;
   letter-spacing: 0.8px;
@@ -486,7 +484,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 /************ Projects Css ************/
 .contact {
-  background: linear-gradient(90.21deg, #0e0e0e -5.91%, #105100 111.58%);
+  background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
   padding: 60px 0 200px 0;
 }
 .contact img {
@@ -589,14 +587,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   letter-spacing: 0.5px;
   line-height: 1.2em;
 }
-@media (max-width: 767.98px) { /* Mobile devices (Bootstrap's sm breakpoint) */
-  .newsletter-bx h3 {
-    font-weight: 700;
-    letter-spacing: 0.5px;
-    line-height: 1.2em;
-    margin-left: 39px;
-  }
-}
+
 .new-email-bx {
   background: #fff;
   padding: 5px;
@@ -665,6 +656,12 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     margin-left: 190px;
     border-radius: 18px;
   }
+    .newsletter-bx h3 {
+      font-weight: 700;
+      letter-spacing: 0.5px;
+      line-height: 1.2em;
+      margin-left: 39px;
+    }
   .footer-logo {
     margin-left: 106px;
   }
@@ -681,6 +678,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     width: 92%;
     margin-left: 0;
   }
+    .logo-shift-mobile {
+      margin-left: -35px;
+    }
   
 
 }

@@ -3,7 +3,7 @@ import { Col, Row } from "react-bootstrap";
 export const Newsletter = () => {
   const handleResumeOpen = () => {
     // Update this path if deployed or hosted differently
-    window.open("https://drive.google.com/file/d/1xCnqJ4GeBjP67yoOAB6J14uNTwEW5KkW/view?usp=sharing", "_blank"); // Opens in new tab
+    window.open("https://drive.google.com/file/d/1CNs5k8X8FWGe28QYW5sDAurzDn0rSQUn/view?usp=sharing", "_blank"); // Opens in new tab
   };
 
   return (

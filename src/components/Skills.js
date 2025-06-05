@@ -35,23 +35,23 @@ export const Skills = () => {
                 <div className="col-12">
                     <div className="skill-bx wow zoomIn">
                         <h2>Skills</h2>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br></br> Lorem Ipsum has been the industry's standard dummy text.</p>
+                        <p>Skilled in web application penetration testing and full-stack development, with hands-on experience identifying and exploiting security vulnerabilities. Proficient in a wide range of programming languages and frameworks. Strong understanding of cybersecurity tools such as Nmap, Burp Suite, and others, used for reconnaissance, analysis, and exploitation. Passionate about building secure, scalable applications and continuously expanding knowledge in ethical hacking and secure coding practices.</p>
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                             <div className="item">
                                 <img src={meter1} alt="Image" />
-                                <h5 className="sc">Full Stack Development</h5>
+                                <h5 className="sc">Web Pentesting</h5>
                             </div>
                             <div className="item">
                                 <img src={meter2} alt="Image" />
-                                <h5 className="sc" >Web Pentesting</h5>
+                                <h5 className="sc" >Full Stack Development</h5>
                             </div>
                             <div className="item">
                                 <img src={meter3} alt="Image" />
-                                <h5 className="sc">Logo Design</h5>
+                                <h5 className="sc">Shell Scripting</h5>
                             </div>
                             <div className="item">
                                 <img src={meter1} alt="Image" />
-                                <h5 className="sc">Web Development</h5>
+                                <h5 className="sc">C Language</h5>
                             </div>
                         </Carousel>
                     </div>
