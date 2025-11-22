@@ -1,0 +1,35 @@
+.cursor {
+  pointer-events: none;
+  position: fixed;
+  display: block;
+  border-radius: 0;
+  mix-blend-mode: difference;
+  top: 0;
+  left: 0;
+  z-index: 9999999999999999;
+}
+
+.circle {
+  position: absolute;
+  display: block;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background-color: #fff;
+  transition: transform 0.02s ease-out;
+  opacity: 0.9;
+}
+
+/* Hide cursor trail on mobile devices */
+@media (max-width: 768px) {
+  .cursor {
+    display: none;
+  }
+}
+
+/* Hide cursor trail when user prefers reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  .cursor {
+    display: none;
+  }
+}
