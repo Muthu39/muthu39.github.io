@@ -3,6 +3,7 @@ import "./App.css";
 import DarkLayer from "./components/DarkLayer";
 import LightLayer from "./components/LightLayer";
 import CursorTrail from "./components/CursorTrail";
+import SplineBackground from "./components/SplineBackground";
 
 function App() {
   const [isDark, setIsDark] = useState(false);
@@ -33,6 +34,8 @@ function App() {
 
   return (
     <div className="app-container">
+      {/* Spline 3D Background - Interactive cursor following animation */}
+
       {/* Cursor Trail Effect */}
       <CursorTrail />
 

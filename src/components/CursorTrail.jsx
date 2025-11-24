@@ -30,8 +30,8 @@ const CursorTrail = () => {
       let y = coordsRef.current.y;
 
       circlesRef.current.forEach((circle, index) => {
-        circle.style.left = x - 60 + "px";
-        circle.style.top = y - 60 + "px";
+        circle.style.left = x - 13 + "px";
+        circle.style.top = y - 13 + "px";
 
         // Smoother proportional scaling - from 100% to 30% for better balance
         const scale =

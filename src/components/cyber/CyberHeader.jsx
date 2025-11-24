@@ -1,12 +1,12 @@
 import React from "react";
+import SplineBackground from "../SplineBackground";
 
 const CyberHeader = () => {
   return (
     <header className="cyber-header">
+      <SplineBackground />
       <div className="glitch-container">
-        <h1 className="glitch" data-text="MUTHUKKUMARAN">
-          MUTHUKKUMARAN
-        </h1>
+        <h1 className="glitch">MUTHUKKUMARAN</h1>
       </div>
       <p className="cyber-subtitle">
         <span className="typing-effect">

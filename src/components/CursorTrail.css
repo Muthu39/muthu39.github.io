@@ -12,8 +12,8 @@
 .circle {
   position: absolute;
   display: block;
-  width: 120px;
-  height: 120px;
+  width: 26px;
+  height: 26px;
   border-radius: 50%;
   background-color: #fff;
   transition: transform 0.02s ease-out;
