@@ -27,24 +27,22 @@ export const cyberAchievements = [
 ];
 
 export const cyberSkills = [
-  "Penetration Testing",
-  "Network Security",
-  "Malware Analysis",
-  "Cryptography",
-  "OSINT",
-  "Reverse Engineering",
-  "Web Security",
-  "Linux Administration",
+  "Web Penetration Testing\"",
+  "OSINT\"",
+  "Network Penetration Testing\"",
+  "Kali Linux\" --OS",
+  "Burp Suite\" --Web Security",
+  "Metasploit\" --Exploitation",
+  "Nmap\" --Port Scanning",
 ];
 
-export const cyberTools = [
-  { name: "Kali Linux", category: "OS" },
-  { name: "Burp Suite", category: "Web Security" },
-  { name: "Metasploit", category: "Exploitation" },
-  { name: "Wireshark", category: "Network Analysis" },
-  { name: "Nmap", category: "Port Scanning" },
-  { name: "Ghidra", category: "Reverse Engineering" },
-];
+// export const cyberTools = [
+//   { name: "Kali Linux", category: "OS" },
+//   { name: "Burp Suite", category: "Web Security" },
+//   { name: "Metasploit", category: "Exploitation" },
+//   { name: "Wireshark", category: "Network Analysis" },
+//   { name: "Nmap", category: "Port Scanning" },
+// ];
 
 export const cyberProjects = [
   {
