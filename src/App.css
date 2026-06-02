@@ -182,7 +182,10 @@ body {
   z-index: 1;
   max-width: 1200px;
   margin: 0 auto;
-  padding: 60px 20px;
+    padding-top:0px;
+  padding-bottom: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 /* ============================================
@@ -489,13 +492,11 @@ body {
   width: 120px;
   height: 120px;
   margin: 0 auto 30px;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 4rem;
+  display: block;
+  object-fit: cover;
   animation: pulse-avatar 2s ease-in-out infinite;
+  border: 3px solid rgba(102, 126, 234, 0.3);
 }
 
 @keyframes pulse-avatar {
@@ -616,6 +617,12 @@ body {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 30px;
+}
+
+.achievement-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
 }
 
 .achievement-card {

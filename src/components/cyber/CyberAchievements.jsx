@@ -10,17 +10,25 @@ const CyberAchievements = () => {
       </h2>
       <div className="achievements-grid">
         {cyberAchievements.map((achievement, index) => (
-          <div
+          <a
             key={index}
-            className="achievement-card"
+            href={achievement.link}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="achievement-link"
+            
             style={{ animationDelay: `${index * 0.1}s` }}
           >
-            <div className="card-glow"></div>
-            <div className="achievement-icon">{achievement.icon}</div>
-            <h3>{achievement.title}</h3>
-            <p>{achievement.description}</p>
-            <div className="cyber-border"></div>
-          </div>
+            <div
+              className="achievement-card"
+            >
+              <div className="card-glow"></div>
+              <div className="achievement-icon">{achievement.icon}</div>
+              <h3>{achievement.title}</h3>
+              <p>{achievement.description}</p>
+              <div className="cyber-border"></div>
+            </div>
+          </a>
         ))}
       </div>
     </section>

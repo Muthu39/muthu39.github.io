@@ -21,15 +21,16 @@ const CyberContact = () => {
             </p>
             <p className="terminal-output">
               <span className="contact-label">Email:</span>{" "}
-              muthukkumaran@security.dev
+              muthukkumaran003@gmail.com
             </p>
             <p className="terminal-output">
               <span className="contact-label">GitHub:</span>{" "}
-              github.com/muthukkumaran
+              <a href="https://github.com/Muthu39" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' ,color:'white'}}>github.com/Muthu39</a>
             </p>
             <p className="terminal-output">
               <span className="contact-label">LinkedIn:</span>{" "}
-              linkedin.com/in/muthukkumaran
+              <a href="https://www.linkedin.com/in/bmk03" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' ,color:'white'}}>www.linkedin.com/in/bmk03
+</a>
             </p>
             <p className="terminal-line">
               <span className="terminal-prompt">root@muthu:~#</span>{" "}

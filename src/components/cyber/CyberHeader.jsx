@@ -10,7 +10,7 @@ const CyberHeader = () => {
       </div>
       <p className="cyber-subtitle">
         <span className="typing-effect">
-          $ Cyber Security Specialist | Ethical Hacker
+          $ Cyber Security Student | Ethical Hacker
         </span>
       </p>
       <div className="cyber-intro">

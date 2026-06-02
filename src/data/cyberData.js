@@ -1,27 +1,28 @@
 export const cyberAchievements = [
   {
-    title: "CTF Competition Winner",
-    description: "1st place in National Cyber Security CTF 2024",
+    title: "CTF Player",
+    description: "Top 2% in TryHackMe",
     icon: "🏆",
+    link:"https://tryhackme.com/p/Hack...The...Devil",
   },
-  {
-    title: "Ethical Hacking Certification",
-    description: "CEH v12 - Certified Ethical Hacker",
-    icon: "🎓",
-  },
-  {
-    title: "Vulnerability Research",
-    description: "Discovered 3 CVEs in open-source software",
-    icon: "🔍",
-  },
-  {
-    title: "Security Audit",
-    description: "Conducted penetration testing for 5+ organizations",
-    icon: "🛡️",
-  },
+  // {
+  //   title: "Ethical Hacking Certification",
+  //   description: "CEH v12 - Certified Ethical Hacker",
+  //   icon: "🎓",
+  // },
+  // {
+  //   title: "Vulnerability Research",
+  //   description: "Discovered 3 CVEs in open-source software",
+  //   icon: "🔍",
+  // },
+  // {
+  //   title: "Security Audit",
+  //   description: "Conducted penetration testing for 5+ organizations",
+  //   icon: "🛡️",
+  // },
   {
     title: "Bug Bounty Hunter",
-    description: "Hall of Fame - Google, Microsoft Security Researchers",
+    description: "Found bugs on - Tripadvisor , S-Pankki, Wonder Diamonds",
     icon: "💰",
   },
 ];
@@ -34,6 +35,7 @@ export const cyberSkills = [
   "Burp Suite\" --Web Security",
   "Metasploit\" --Exploitation",
   "Nmap\" --Port Scanning",
+  "Bash Scripting\"",
 ];
 
 // export const cyberTools = [
@@ -46,21 +48,21 @@ export const cyberSkills = [
 
 export const cyberProjects = [
   {
-    title: "Network Intrusion Detection System",
+    title: "MAC Address-Based Authentication System",
     description:
-      "Built custom IDS using machine learning to detect anomalous network traffic patterns",
-    tech: ["Python", "Scikit-learn", "Scapy", "TensorFlow"],
+      "Secure authentication platform that eliminates passwords by verifying users through device MAC addresses, reducing unauthorized access and simplifying login workflows.",
+    tech: ["Python", "Flask", "SQLite", "Hashing Algorithms"],
   },
   {
-    title: "Password Strength Analyzer",
+    title: "AutoxRecon Framework",
     description:
-      "Tool to analyze and crack weak passwords using dictionary and brute-force attacks",
-    tech: ["Python", "Hashcat", "John the Ripper"],
+      "Automated web reconnaissance framework for penetration testing that performs OSINT-based subdomain discovery, endpoint crawling, and attack-surface mapping.",
+    tech: ["Python", "Nmap", "Katana", "Sublist3r", "Amass","Waybackurls"],
   },
-  {
-    title: "Web Application Firewall",
-    description:
-      "Custom WAF implementation to protect against common web attacks",
-    tech: ["Python", "Flask", "ModSecurity", "OWASP"],
-  },
+  // {
+  //   title: "Web Application Firewall",
+  //   description:
+  //     "Custom WAF implementation to protect against common web attacks",
+  //   tech: ["Python", "Flask", "ModSecurity", "OWASP"],
+  // },
 ];

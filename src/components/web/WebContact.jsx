@@ -13,33 +13,32 @@ const WebContact = () => {
           </p>
           <div className="contact-methods">
             <a
-              href="mailto:muthukkumaran@webdev.com"
+              href="mailto:muthukkumaran003@gmail.com"
               className="contact-method"
             >
               <span className="contact-icon">📧</span>
               <div>
                 <h3>Email</h3>
-                <p>muthukkumaran@webdev.com</p>
               </div>
             </a>
             <a
-              href="https://github.com/muthukkumaran"
+              href="https://github.com/Muthu39/"
               className="contact-method"
             >
               <span className="contact-icon">💻</span>
               <div>
                 <h3>GitHub</h3>
-                <p>@muthukkumaran</p>
               </div>
             </a>
             <a
-              href="https://linkedin.com/in/muthukkumaran"
+              href="https://www.linkedin.com/in/bmk03"
               className="contact-method"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               <span className="contact-icon">💼</span>
               <div>
                 <h3>LinkedIn</h3>
-                <p>Muthukkumaran</p>
               </div>
             </a>
           </div>
