@@ -9,11 +9,11 @@ export const webProjects = [
     description: "Enterprise-grade multi-tenant video management system with real-time RTSP streaming, recording, playback, ML-based analytics, and role-based access control.",
     tech: ["MERN Stack", "Ffmpeg", "ML","RTSP"],
   },
-  // {
-  //   title: "Portfolio CMS",
-  //   description: "Content management system for dynamic portfolio websites",
-  //   tech: ["Next.js", "TypeScript", "PostgreSQL"],
-  // },
+  {
+    title: "Mango Disease Detection",
+    description: "A machine learning model that detects diseases in mango and its leaves with high accuracy, providing farmers with a valuable tool for early intervention and crop management.",
+    tech: ["Python", "yolov8", "flask"],
+  },
 ];
 
 export const webSkills = [
